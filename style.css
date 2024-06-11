@@ -1,0 +1,327 @@
+body{
+    background-color:rgb(227, 219, 198);
+    margin:20px;
+}
+
+main{
+    padding-bottom:60px;
+}
+
+.footer{
+    margin:50px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+img {
+    display:block;
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    color:rgb(53, 95, 144);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:40px;
+    padding-bottom:20px;
+    padding-top:30px;
+}
+
+.h2index{
+    color:#d37f00;
+    padding-right:40px;
+}
+
+p{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height:1.7rem;
+    padding-top:10px;
+    padding-bottom:20px;
+    font-size:13px;
+}
+
+h3{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-size:15px;
+    padding-bottom:30px;
+    padding-top:20px;
+    text-align:center;
+}
+
+script{
+    padding-top:15px;
+}
+
+.titel{
+    width:50%;
+    align-items: center;
+    padding-top:30px;
+}
+
+.titel1{
+    display:grid;
+    width:35%;
+    align-items: center;
+    padding-top:70px;
+    padding-bottom:30px;
+}
+
+.profil{
+    width:100%;
+}
+
+.om_mig{
+    padding-top:40px;
+    text-align:right;
+    margin:30px;
+}
+
+.om_migp{
+    margin:30px;
+    color:white;
+    opacity:0.7;
+    font-size:17px;
+}
+
+.om_mig{
+    padding-top:40px;
+    margin:30px;
+}
+
+.projekt{
+    display:block;
+    width:90%;
+    margin: 10px;
+    opacity:100%;
+    padding-bottom:30px;
+}
+
+.projekt:hover{
+    -webkit-transform:scale(3); 
+    transform:scale(1.1);
+    opacity:70%;
+    transition: 0.2s linear;
+}
+
+  a:hover {
+    color: #e49101;
+  }
+
+  .hyperlink, .logo{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: end;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    padding-right:80px;
+    padding-top:20px;
+  }
+
+  .hyperlink2 {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: end;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    padding-right:40px;
+    padding-bottom: 30px;
+  }
+
+  .tema{
+    text-align:center;
+    padding:40px;
+  }
+
+.center{
+    text-align:center;
+}
+
+.temeaer{
+    padding-top:3.5rem;
+    font-size:3.5rem;
+}
+
+.tematekst{
+    color: red;
+    text-align:center;
+    font-style: italic;
+    font-family: "Nanum Gothic", sans-serif;
+    padding-bottom:10px;
+    padding-top:15px;
+}
+
+.hide{
+    position:grid;
+    font-size:15rem;
+    height:10px;
+    padding-left:50px;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.titel2{
+    display:grid;
+    width:15%;
+    align-items: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.accordian{
+    color:rgb(53, 95, 144);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size:40px;
+    padding-bottom:20px;
+    padding-top:50px;
+}
+
+.previous {
+    font-size: 7rem;
+    padding-left:20px;
+  }
+
+  .previous:hover {
+    color:#000000;
+  }
+
+  .lighthouse{
+    width:90%;
+  }
+
+  .lighthouse1{
+    width:40%;
+    align-items: center;
+  }
+
+  .heroimage{
+    position: relative;
+    width: 100%;
+    height:820px;
+    background: url(galleri/hero-photo.webp) no-repeat 50% 0% fixed;
+    background-size: 100%;
+    overflow: hidden;
+    margin-top:20px;
+  }
+
+  .info{
+    color:black;
+  }
+
+@media (min-width:750px) {
+
+    p{
+        font-size:15px;
+    }
+
+    .titel{
+        width:30%;
+        align-items: center;
+        padding-top:30px;
+    }
+
+    .uddannelse{
+    padding-left:200px;
+    }   
+
+    .titelweb{
+    width:50%;
+    align-items: center;
+    }
+
+    .indhold{
+        margin:50px;
+    }
+
+    .hyperlink2 {
+        padding-right:80px;
+        padding-top:90px;
+      }
+    
+    .temabeskrivelse_tekst{
+        padding:50px;
+        text-align:center;
+    }
+
+    .accordian{
+        padding-left:170px;
+    }
+
+    .hide{
+        font-size:20rem;
+        padding-left:15rem;
+    }
+
+    .projekt{
+        align-items: center;
+        padding-left:30px;
+    }
+    
+    .galleribillede{
+        width:90%;
+        align-items: center;
+    }
+    
+    .opgave_tekst{
+        padding-right:30px;
+    }
+    
+    .interviewimg{
+        display:block;
+        width: 90%;
+        align-items: center;
+    }
+    
+    .styletile{
+        width: 81%;
+        align-items: center;
+    }
+    
+    .moodboard{
+        width:90%;
+        align-items: center;
+    }
+    
+    .prototype{
+        width:50%;
+        align-items: center;
+    }
+    
+    .wireframe{
+        width:90%;
+        align-items: center;
+    }
+    
+    .youtube{
+        display:block;
+        margin:auto;
+        align-items: center;
+    }
+
+    .lighthouse1{
+    align-items: center;
+  }
+
+  .lottie{
+    width: 800px; 
+    height: 200px;
+  }
+}  
